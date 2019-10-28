@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D0BCF89235E074200E1C29E /* ServiceStatusManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0BCF88235E074200E1C29E /* ServiceStatusManager.swift */; };
+		7D0BCF8B235E075500E1C29E /* LocationServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0BCF8A235E075400E1C29E /* LocationServiceManager.swift */; };
+		7D0BCF8D235E076600E1C29E /* BluetoothServiceManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0BCF8C235E076500E1C29E /* BluetoothServiceManger.swift */; };
+		7D0BCF8F235E077700E1C29E /* PushNotificationServiceManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0BCF8E235E077700E1C29E /* PushNotificationServiceManger.swift */; };
+		7D2A270A23583A40007E87B4 /* StyleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2A270923583A40007E87B4 /* StyleData.swift */; };
 		7D3FEEC82356EDE100EB63BD /* CellBeacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3FEEC72356EDE100EB63BD /* CellBeacon.swift */; };
 		7DAE15AD2353342400FB9534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAE15AC2353342400FB9534 /* AppDelegate.swift */; };
 		7DAE15AF2353342400FB9534 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAE15AE2353342400FB9534 /* SceneDelegate.swift */; };
@@ -14,9 +19,16 @@
 		7DAE15B42353342400FB9534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DAE15B22353342400FB9534 /* Main.storyboard */; };
 		7DAE15B62353342A00FB9534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DAE15B52353342A00FB9534 /* Assets.xcassets */; };
 		7DAE15B92353342A00FB9534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DAE15B72353342A00FB9534 /* LaunchScreen.storyboard */; };
+		85F21A08F6E41C068D037E00 /* Pods_Ibeacon_Broadcast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6FFF216928C5BC95B6D0E1 /* Pods_Ibeacon_Broadcast.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E9A0F651385385747514638 /* Pods-Ibeacon Broadcast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ibeacon Broadcast.debug.xcconfig"; path = "Target Support Files/Pods-Ibeacon Broadcast/Pods-Ibeacon Broadcast.debug.xcconfig"; sourceTree = "<group>"; };
+		7D0BCF88235E074200E1C29E /* ServiceStatusManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceStatusManager.swift; sourceTree = "<group>"; };
+		7D0BCF8A235E075400E1C29E /* LocationServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationServiceManager.swift; sourceTree = "<group>"; };
+		7D0BCF8C235E076500E1C29E /* BluetoothServiceManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothServiceManger.swift; sourceTree = "<group>"; };
+		7D0BCF8E235E077700E1C29E /* PushNotificationServiceManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationServiceManger.swift; sourceTree = "<group>"; };
+		7D2A270923583A40007E87B4 /* StyleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleData.swift; sourceTree = "<group>"; };
 		7D3FEEC72356EDE100EB63BD /* CellBeacon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellBeacon.swift; sourceTree = "<group>"; };
 		7DAE15A92353342400FB9534 /* Ibeacon Broadcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ibeacon Broadcast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DAE15AC2353342400FB9534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +38,8 @@
 		7DAE15B52353342A00FB9534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DAE15B82353342A00FB9534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DAE15BA2353342A00FB9534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F6FFF216928C5BC95B6D0E1 /* Pods_Ibeacon_Broadcast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ibeacon_Broadcast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E09202BB30257725CAEFBFA /* Pods-Ibeacon Broadcast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ibeacon Broadcast.release.xcconfig"; path = "Target Support Files/Pods-Ibeacon Broadcast/Pods-Ibeacon Broadcast.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +47,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F21A08F6E41C068D037E00 /* Pods_Ibeacon_Broadcast.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		415F28C5D100D7CA440D82A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E9A0F651385385747514638 /* Pods-Ibeacon Broadcast.debug.xcconfig */,
+				9E09202BB30257725CAEFBFA /* Pods-Ibeacon Broadcast.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7D2A270B23583A47007E87B4 /* DataSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7D2A270923583A40007E87B4 /* StyleData.swift */,
+			);
+			name = DataSDK;
+			sourceTree = "<group>";
+		};
+		7D3463D823657FC000451C6D /* permission */ = {
+			isa = PBXGroup;
+			children = (
+				7D0BCF88235E074200E1C29E /* ServiceStatusManager.swift */,
+				7D0BCF8A235E075400E1C29E /* LocationServiceManager.swift */,
+				7D0BCF8C235E076500E1C29E /* BluetoothServiceManger.swift */,
+				7D0BCF8E235E077700E1C29E /* PushNotificationServiceManger.swift */,
+			);
+			name = permission;
+			sourceTree = "<group>";
+		};
+		7D3463DC2365800400451C6D /* supportfile */ = {
+			isa = PBXGroup;
+			children = (
+				7DAE15AC2353342400FB9534 /* AppDelegate.swift */,
+				7DAE15AE2353342400FB9534 /* SceneDelegate.swift */,
+				7DAE15B72353342A00FB9534 /* LaunchScreen.storyboard */,
+				7DAE15BA2353342A00FB9534 /* Info.plist */,
+			);
+			name = supportfile;
+			sourceTree = "<group>";
+		};
 		7DAE15A02353342400FB9534 = {
 			isa = PBXGroup;
 			children = (
 				7DAE15AB2353342400FB9534 /* Ibeacon Broadcast */,
 				7DAE15AA2353342400FB9534 /* Products */,
+				415F28C5D100D7CA440D82A3 /* Pods */,
+				B8AAF4B3B446CDCD6ECE722E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +114,23 @@
 		7DAE15AB2353342400FB9534 /* Ibeacon Broadcast */ = {
 			isa = PBXGroup;
 			children = (
-				7DAE15AC2353342400FB9534 /* AppDelegate.swift */,
-				7DAE15AE2353342400FB9534 /* SceneDelegate.swift */,
+				7D3463D823657FC000451C6D /* permission */,
 				7DAE15B02353342400FB9534 /* ViewController.swift */,
 				7DAE15B22353342400FB9534 /* Main.storyboard */,
 				7DAE15B52353342A00FB9534 /* Assets.xcassets */,
-				7DAE15B72353342A00FB9534 /* LaunchScreen.storyboard */,
-				7DAE15BA2353342A00FB9534 /* Info.plist */,
 				7D3FEEC72356EDE100EB63BD /* CellBeacon.swift */,
+				7D2A270B23583A47007E87B4 /* DataSDK */,
+				7D3463DC2365800400451C6D /* supportfile */,
 			);
 			path = "Ibeacon Broadcast";
+			sourceTree = "<group>";
+		};
+		B8AAF4B3B446CDCD6ECE722E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F6FFF216928C5BC95B6D0E1 /* Pods_Ibeacon_Broadcast.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DAE15BD2353342A00FB9534 /* Build configuration list for PBXNativeTarget "Ibeacon Broadcast" */;
 			buildPhases = (
+				E05E3EBF15078F8FD58B65BB /* [CP] Check Pods Manifest.lock */,
 				7DAE15A52353342400FB9534 /* Sources */,
 				7DAE15A62353342400FB9534 /* Frameworks */,
 				7DAE15A72353342400FB9534 /* Resources */,
+				056EAF9C9A198766227049E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,14 +201,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		056EAF9C9A198766227049E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ibeacon Broadcast/Pods-Ibeacon Broadcast-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ibeacon Broadcast/Pods-Ibeacon Broadcast-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ibeacon Broadcast/Pods-Ibeacon Broadcast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E05E3EBF15078F8FD58B65BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ibeacon Broadcast-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7DAE15A52353342400FB9534 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D0BCF8D235E076600E1C29E /* BluetoothServiceManger.swift in Sources */,
+				7D0BCF8F235E077700E1C29E /* PushNotificationServiceManger.swift in Sources */,
 				7DAE15B12353342400FB9534 /* ViewController.swift in Sources */,
 				7DAE15AD2353342400FB9534 /* AppDelegate.swift in Sources */,
 				7DAE15AF2353342400FB9534 /* SceneDelegate.swift in Sources */,
+				7D0BCF8B235E075500E1C29E /* LocationServiceManager.swift in Sources */,
+				7D0BCF89235E074200E1C29E /* ServiceStatusManager.swift in Sources */,
+				7D2A270A23583A40007E87B4 /* StyleData.swift in Sources */,
 				7D3FEEC82356EDE100EB63BD /* CellBeacon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +398,7 @@
 		};
 		7DAE15BE2353342A00FB9534 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E9A0F651385385747514638 /* Pods-Ibeacon Broadcast.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -305,6 +418,7 @@
 		};
 		7DAE15BF2353342A00FB9534 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E09202BB30257725CAEFBFA /* Pods-Ibeacon Broadcast.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
