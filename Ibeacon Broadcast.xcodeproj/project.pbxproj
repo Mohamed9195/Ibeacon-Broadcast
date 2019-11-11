@@ -11,8 +11,10 @@
 		7D0BCF8B235E075500E1C29E /* LocationServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0BCF8A235E075400E1C29E /* LocationServiceManager.swift */; };
 		7D0BCF8D235E076600E1C29E /* BluetoothServiceManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0BCF8C235E076500E1C29E /* BluetoothServiceManger.swift */; };
 		7D0BCF8F235E077700E1C29E /* PushNotificationServiceManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0BCF8E235E077700E1C29E /* PushNotificationServiceManger.swift */; };
+		7D2895EF236EEC830039DBF1 /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2895EE236EEC830039DBF1 /* SharedData.swift */; };
 		7D2A270A23583A40007E87B4 /* StyleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2A270923583A40007E87B4 /* StyleData.swift */; };
 		7D3FEEC82356EDE100EB63BD /* CellBeacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3FEEC72356EDE100EB63BD /* CellBeacon.swift */; };
+		7D6912E12379574B0099B6C1 /* BLEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6912E02379574B0099B6C1 /* BLEViewController.swift */; };
 		7DAE15AD2353342400FB9534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAE15AC2353342400FB9534 /* AppDelegate.swift */; };
 		7DAE15AF2353342400FB9534 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAE15AE2353342400FB9534 /* SceneDelegate.swift */; };
 		7DAE15B12353342400FB9534 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAE15B02353342400FB9534 /* ViewController.swift */; };
@@ -28,8 +30,10 @@
 		7D0BCF8A235E075400E1C29E /* LocationServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationServiceManager.swift; sourceTree = "<group>"; };
 		7D0BCF8C235E076500E1C29E /* BluetoothServiceManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothServiceManger.swift; sourceTree = "<group>"; };
 		7D0BCF8E235E077700E1C29E /* PushNotificationServiceManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationServiceManger.swift; sourceTree = "<group>"; };
+		7D2895EE236EEC830039DBF1 /* SharedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedData.swift; sourceTree = "<group>"; };
 		7D2A270923583A40007E87B4 /* StyleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleData.swift; sourceTree = "<group>"; };
 		7D3FEEC72356EDE100EB63BD /* CellBeacon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellBeacon.swift; sourceTree = "<group>"; };
+		7D6912E02379574B0099B6C1 /* BLEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEViewController.swift; sourceTree = "<group>"; };
 		7DAE15A92353342400FB9534 /* Ibeacon Broadcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ibeacon Broadcast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DAE15AC2353342400FB9534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DAE15AE2353342400FB9534 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		7D2895ED236EEC590039DBF1 /* IBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				7DAE15B02353342400FB9534 /* ViewController.swift */,
+				7D3FEEC72356EDE100EB63BD /* CellBeacon.swift */,
+			);
+			name = IBeacon;
+			sourceTree = "<group>";
+		};
 		7D2A270B23583A47007E87B4 /* DataSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +106,14 @@
 			name = supportfile;
 			sourceTree = "<group>";
 		};
+		7D6912E2237957540099B6C1 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				7D6912E02379574B0099B6C1 /* BLEViewController.swift */,
+			);
+			name = BLE;
+			sourceTree = "<group>";
+		};
 		7DAE15A02353342400FB9534 = {
 			isa = PBXGroup;
 			children = (
@@ -114,11 +135,12 @@
 		7DAE15AB2353342400FB9534 /* Ibeacon Broadcast */ = {
 			isa = PBXGroup;
 			children = (
+				7D2895EE236EEC830039DBF1 /* SharedData.swift */,
 				7D3463D823657FC000451C6D /* permission */,
-				7DAE15B02353342400FB9534 /* ViewController.swift */,
+				7D2895ED236EEC590039DBF1 /* IBeacon */,
+				7D6912E2237957540099B6C1 /* BLE */,
 				7DAE15B22353342400FB9534 /* Main.storyboard */,
 				7DAE15B52353342A00FB9534 /* Assets.xcassets */,
-				7D3FEEC72356EDE100EB63BD /* CellBeacon.swift */,
 				7D2A270B23583A47007E87B4 /* DataSDK */,
 				7D3463DC2365800400451C6D /* supportfile */,
 			);
@@ -248,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D6912E12379574B0099B6C1 /* BLEViewController.swift in Sources */,
 				7D0BCF8D235E076600E1C29E /* BluetoothServiceManger.swift in Sources */,
 				7D0BCF8F235E077700E1C29E /* PushNotificationServiceManger.swift in Sources */,
 				7DAE15B12353342400FB9534 /* ViewController.swift in Sources */,
@@ -256,6 +279,7 @@
 				7D0BCF8B235E075500E1C29E /* LocationServiceManager.swift in Sources */,
 				7D0BCF89235E074200E1C29E /* ServiceStatusManager.swift in Sources */,
 				7D2A270A23583A40007E87B4 /* StyleData.swift in Sources */,
+				7D2895EF236EEC830039DBF1 /* SharedData.swift in Sources */,
 				7D3FEEC82356EDE100EB63BD /* CellBeacon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

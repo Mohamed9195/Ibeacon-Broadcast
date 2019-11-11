@@ -13,6 +13,7 @@ class CellBeacon: UITableViewCell {
     @IBOutlet weak var uuidLabel: UILabel!
     @IBOutlet weak var mijorLabel: UILabel!
     @IBOutlet weak var minorLabel: UILabel!
+    @IBOutlet weak var rssiLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
